@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2c3439c7e93212604a26c43e3577d4d2",
+    "packages": [
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": " 4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "time": "2017-06-27T22:17:23+00:00"
+        },
+        {
+            "name": "kelvinmo/simplejwt",
+            "version": "v0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kelvinmo/simplejwt.git",
+                "reference": "ac4389dcf75f859ad371977d0f0275243ead320b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kelvinmo/simplejwt/zipball/ac4389dcf75f859ad371977d0f0275243ead320b",
+                "reference": "ac4389dcf75f859ad371977d0f0275243ead320b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-hash": "*",
+                "ext-openssl": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-bz2": "*",
+                "ext-phar": "*",
+                "phing/phing": "2.*",
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "2.7.*"
+            },
+            "bin": [
+                "bin/jwkstool.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleJWT\\": "src/SimpleJWT"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kelvin Mo",
+                    "email": "kmo@users.sourceforge.net"
+                }
+            ],
+            "description": "An simple JSON Web Token library for PHP.",
+            "homepage": "https://github.com/kelvinmo/simplejwt",
+            "keywords": [
+                "JOSE",
+                "JWE",
+                "jwt"
+            ],
+            "time": "2017-08-12T10:14:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
