@@ -1,6 +1,6 @@
 {
     "require": {
-        "firebase/php-jwt": "^5.0",
+        "firebase/php-jwt": "^6.0",
         "kelvinmo/simplejwt": "^0.1.5"
     }
 }
